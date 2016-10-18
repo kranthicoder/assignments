@@ -1,0 +1,78 @@
+<!--main document type of the web page-->
+<!DOCTYPE html>
+
+<!--default html language to be english-->
+<html lang="en">
+
+	<!--head - head of the web page-->
+	<head>
+
+		<title>New DMV Licence Form</title>
+
+		<style></style>
+
+		<link  href="../styles/style.css" rel="stylesheet"/>
+
+	</head>
+
+	<!--body - body of the web page-->
+	<body>
+		<article>
+			
+			<header>
+				<center><h1>Welcome to the DMV website</h1></center>
+			</header>
+
+			<section>
+				
+				<ul>
+  					<li>Home</li>
+  					<li>News</li>
+  					<li>Contact</li>
+  					<li>About</li>
+				</ul>
+
+				<center>
+
+					<form name="newLicenceForm">
+					
+						<label for="firstName">Applicant's First Name:</label>
+						<input type="text" id="firstName" name="fname" placeholder="Enter Your First Name"/>
+
+						<label for="lastName">Applicant's Last Name:</label>
+						<input type="text" id="lastName" name="lname" placeholder="Enter Your Last Name"/>
+
+						<label for="phoneNumber">Applicant's Phone Number:</label>
+						<input type="text" id="phoneNumber" name="pnumber" placeholder="Enter Your Phone Number"/>
+
+						<label for="gender">Applicant's Gender:</label>
+
+							<label for="male">Male</label>
+							<input type="radio" id="male" name="gender" value="Male"/>
+
+							<label for="female">Female</label>
+							<input type="radio" id="female" name="gender" value="Female"/>
+
+						<label for="seniorCitizen">Is applicant a senior citizen?</label>
+						<input type="checkbox" id="seniorCitizen" name="scitizen"/>
+
+						<button type="submit" id="submit">
+							<span>Submit</span>
+						</button>
+
+						<button type="reset" id="reset">
+							<span>Cancel</span>
+						</button>
+
+					</form>
+				</center>
+
+			</section>
+			<!--footer- footer of the web page-->
+			<footer>
+				
+			</footer>
+
+		</article>
+	</body>
+</html>
