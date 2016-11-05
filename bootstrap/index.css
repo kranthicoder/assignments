@@ -2,16 +2,12 @@
 	display: inline-block;
 }
 
-#a1{
-	margin-left: 15px;
-}
-
 .navbar-fixed-top li{
 	margin-left: 16px;
 	margin-right: 16px;
 }
 
-#img1{
+.img1{
     height: 250px;
     margin-top: 70px;
     margin-bottom: 20px;
@@ -40,7 +36,7 @@ h1{
 	color: #000000;
 }
 
-.p1{
+p{
 	padding: 10px;
 	font-size: 18px;
 }
@@ -48,10 +44,6 @@ h1{
 #bottom1{
 	margin-bottom: 70px;
 }
-
-// #button2{
-// 	margin-right: 0px;
-// }
 
 #myNavbar{
 	margin-left: 0px;
@@ -61,12 +53,3 @@ h1{
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
-// .carousel-inner > .item > img{
-//     width: 40%;
-//     margin: auto;
-// }
-
-// #myCarousel{
-//   	margin-top: 60px;
-// }

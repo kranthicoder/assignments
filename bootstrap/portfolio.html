@@ -6,33 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
   <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-	    <div class="container-fluid">
-	      <div class="navbar-header">
-	        <ul class="ul1 nav navbar-nav">
-	          <li><a href="index.html">Karthik Komakula</a></li>
-	        </ul>
-	        <button type="button1" class="navbar-toggle" data-toggle="collapse" data-target="#kkk">
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	        </button>
-	      </div>
-	      <div class="collapse navbar-collapse" id="kkk">
-	        <ul class="nav navbar-nav navbar-right">
-	          <li><a href="#">Skills</a></li>
-	          <li><a href="#">Resume</a></li>
-	          <li><a href="portfolio.html">Portfolio</a></li>
-	          <li><a href="#">Contact Me</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	</nav>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-header col-md-4 col-md-offset-2">
+        <ul class="ul1 nav navbar-nav">
+          <li><a href="index.html">Karthik Komakula</a></li>
+        </ul>
+        <button id="button1" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kkk">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse col-md-6" id="kkk">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
 	<div class="container-fluid">
 	  	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 	    	<ol class="carousel-indicators">
@@ -65,40 +68,43 @@
     		</a>
   		</div>
 	</div>
-	<div class="div2 container-fluid">
-		<div class="row">
-			<div class="col-md-4">
-    			<img id="img2" src="DSC_0056.jpg" alt="Cinque Terre">
-  			</div>
-			<div id="div3" class="col-md-8">
-			<h1 style="color: #ffffff"><i>About Me</i></h1>
-			<p class="p1" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-	</div>
+	<div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-3 col-md-offset-2">
+        <center><img class="img1 img-responsive" src="DSC_0056.jpg" alt="Cinque Terre"></center>
+      </div>
+      <div id="top1" class="col-xs-12 col-md-5">
+        <h1 id="hd1"><i>About Me</i></h1>
+        <p align="justify"><b>Hi! I am Karthik.</br> I Design delightful interface solutions.</br> I Research, Document, Prototype, Test, Iterate, Design and Deliver.</br> I create Interactive prototypes with HTML, CSS and JavaScript.</b></p>
+      </div>
+    </div>
+  </div>
 	<nav class="navbar navbar-inverse navbar-fixed-bottom">
-    	<div class="container-fluid">
-      		<div class="navbar-footer">
-        		<ul class="ul1 nav navbar-nav">
-          			<li><a href="#"> &#169; 2016 KARTHIK. All Rights Reserved. </a></li>
-          		</ul>
-    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-      				<span class="icon-bar"></span>
-      				<span class="icon-bar"></span>
-      				<span class="icon-bar"></span>
-    			</button>
-    		</div>
-      		<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-			        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-			        <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-        		</ul>
-      		</div> 
-    	</div>
-  	</nav>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-footer col-md-4 col-md-offset-2">
+        <ul class="ul1 nav navbar-nav">
+          <li><a href="#"> &#169; 2016 KARTHIK. All Rights Reserved. </a></li>
+        </ul>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div> 
+      <div class="collapse navbar-collapse col-md-4 col-md-offset-2" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+        </ul>
+      </div> 
+    </div>
+    </div>
+  </nav>
 </body>
 </html>
