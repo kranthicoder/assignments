@@ -1,10 +1,22 @@
+body{
+	font-family: 'Lobster', cursive;
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
 .ul1{
 	display: inline-block;
 }
 
-.navbar-fixed-top li{
-	margin-left: 16px;
-	margin-right: 16px;
+.navbar-fixed-top{
+	margin-bottom: 0px;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .img1{
@@ -32,6 +44,14 @@ h1{
     border: 5px solid #ffffff;
 }
 
+.div1:hover{
+	opacity: 0.5;
+}
+
+.div2:hover{
+	opacity: 0.5;
+}
+
 #hd2{
 	color: #000000;
 }
@@ -49,7 +69,22 @@ p{
 	margin-left: 0px;
 }
 
-.navbar-fixed-bottom li{
-	margin-left: 10px;
-	margin-right: 10px;
+.navbar-header, .navbar-footer{
+	padding: 0px;
+}
+
+.k1{
+	margin-left: 137px;
+}
+
+.k2{
+	margin-left: 155px;
+}
+
+.port{
+	margin-bottom: 50px;
+}
+
+.read{
+	float: right;
 }
