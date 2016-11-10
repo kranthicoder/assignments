@@ -53,13 +53,13 @@ h1{
 }
 
 .div9{
-	background-color: #FFC107;
-	border-color: #FFF8E1;
+	background-color: #4CAF50;
+	border-color: #E8F5E9;
 }
 
 .div10{
-	background-color: #FFC107;
-	border-color: #FFF8E1;
+	background-color: #795548;
+	border-color: #EFEBE9;
 }
 
 .div1:hover{
@@ -109,11 +109,11 @@ h1{
 
 .div6:hover{
 	z-index: 1;
-	-webkit-transform: rotate3d(0,1,1,180deg);
-	-moz-transform: rotate3d(0,1,1,180deg);
-	-o-transform: rotate3d(0,1,1,180deg);
-	-ms-transform: rotate3d(0,1,1,180deg);
-	transform: rotate3d(0,1,1,180deg);
+	-webkit-transform: rotate3d(0,0,1,60deg);
+	-moz-transform: rotate3d(0,0,1,60deg);
+	-o-transform: rotate3d(0,0,1,60deg);
+	-ms-transform: rotate3d(0,0,1,60deg);
+	transform: rotate3d(0,0,1,60deg);
 }
 
 .div7:hover{
