@@ -1,0 +1,75 @@
+body {
+  font-family: 'Lobster', cursive;
+}
+.container-fluid,
+.navbar-header,
+.navbar-footer {
+  padding: 0px;
+}
+.ul1 {
+  display: inline-block;
+}
+.navbar-fixed-top {
+  margin-bottom: 0px;
+}
+.row,
+#myNavbar {
+  margin-left: 0px;
+}
+.row {
+  margin-right: 0px;
+}
+.img1,
+#top1 {
+  margin-top: 70px;
+}
+.img1,
+.div1 {
+  border-style: solid;
+}
+.img1 {
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border-color: #24c4d7;
+}
+.div1 {
+  border-color: #ffffff;
+  background-color: #24c4d7;
+}
+.img1,
+.div1 {
+  border-width: 5px;
+}
+h1 {
+  text-align: center;
+}
+#hd1 {
+  color: #24c4d7;
+}
+#hd2 {
+  color: #000000;
+}
+.div1:hover,
+.div2:hover {
+  opacity: 0.5;
+}
+p {
+  font-size: 18px;
+  padding: 10px;
+}
+#bottom1 {
+  margin-bottom: 70px;
+}
+.k1 {
+  margin-left: 137px;
+}
+.k2 {
+  margin-left: 155px;
+}
+.port {
+  margin-bottom: 50px;
+}
+.read {
+  float: right;
+}
